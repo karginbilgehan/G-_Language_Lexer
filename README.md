@@ -21,12 +21,12 @@ Sample input and output is provided below.
 
 * Sample Input:
 
-(deffun sumup (x)
-  (if (equal x 0)
-    1
-    (+ x (sumup (- x 1)))
-  )
-)
+  * ``` (deffun sumup (x)
+    * ``` (if (equal x 0)
+      * ``` 1
+      * ``` (+ x (sumup (- x 1)))
+  * ``` )
+* ``` )
 
 * Sample Output:
 
