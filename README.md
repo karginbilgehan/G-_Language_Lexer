@@ -16,10 +16,10 @@ Lexer must tokenize the given program according to some properties. These featur
     * IntegerValue -> [-]* [1-9]* [0-9]+
     * Id -> [a-zA-Z]+
 
-## Sample İnput and Output 
+## Sample Input and Output 
 Sample input and output is provided below.
 
-*Sample Input:
+* Sample Input:
 
 (deffun sumup (x)
   (if (equal x 0)
@@ -28,7 +28,7 @@ Sample input and output is provided below.
   )
 )
 
-*Sample Output:
+* Sample Output:
 
 (("operator" "(") ("keyword" "deffun")
 ("identifier" "sumup") ("operator" "(")
