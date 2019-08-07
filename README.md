@@ -9,13 +9,12 @@ Lexer must tokenize the given program according to some properties. These featur
  * Operators:
     * ``` +, -, /, *, (, ), ** ```
  * Terminals:
-    * Keywords
     * Operators
-    * 0-9
+    * Keywords
+    * Id -> [a-zA-Z]+
     * BinaryValue -> True | False
     * IntegerValue -> [-]* [1-9]* [0-9]+
-    * Id -> [a-zA-Z]+
-
+ 
 ## Sample Input and Output 
 Sample input and output is provided below.
 
